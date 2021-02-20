@@ -1,0 +1,15 @@
+-rxjs 
+https://rxjs-dev.firebaseapp.com/guide/operators
+https://www.learnrxjs.io/learn-rxjs/operators
+https://www.tutorialspoint.com/rxjs/rxjs_operators.htm
+https://gist.github.com/btroncone/d6cf141d6f2c00dc6b35
+https://angular.io/guide/rx-library
+https://rxjs-dev.firebaseapp.com/guide/operators
+
+-ngxs
+https://github.com/daptontech/ngxs-crud-app/blob/master/src/app/actions/todo.action.ts
+https://github.com/daptontech/ngxs-crud-app/blob/master/src/app/states/todo.state.ts
+https://github.com/daptontech/ngxs-crud-app/blob/master/src/app/form/form.component.ts
+
+service
+https://github.com/daptontech/ngxs-crud-app/blob/1b1e979f6de64a099e80bb44259281bb5163cefe/src/app/todo.service.ts#L8
