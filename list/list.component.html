@@ -1,0 +1,29 @@
+<div class="loading" *ngIf="loading"></div>
+<div *ngIf="error">
+    {{(error | async)?.message}}
+
+</div>
+<div class="col">
+
+
+    <div *ngIf="todos">
+
+        <div>
+            <div *ngFor="let todo of todos | async" class="bg-white rounded shadow my-2 p-4 position-relative">
+                <div>{{todo.id}}</div>
+                <div>{{todo.title}}</div>
+                <div class="text-right ">
+                    <span class="date ">{{todo.createdAt|date: 'dd-MM-yyyy'}}</span>
+                </div>
+                <div class="position-absolute control">
+                    <div>
+                        <button class="btn" (click)="deleteTodo(todo.id)"><i
+                            class="fas fa-trash-alt trash"></i></button>
+                        <button class="btn " (click)="editTodo(todo)"><i class="far fa-edit edit"></i></button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
